@@ -1,2 +1,2 @@
 # HeadFirst
-Information technology training as HeadFirst
+Information technology training at HeadFirst
