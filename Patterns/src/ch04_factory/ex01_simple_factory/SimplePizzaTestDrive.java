@@ -1,6 +1,6 @@
 package ch04_factory.ex01_simple_factory;
 
-public class PizzaTestDrive {
+public class SimplePizzaTestDrive {
     public static void main(String[] args) {
         SimplePizzaFactory factory = new SimplePizzaFactory();
         PizzaStore store = new PizzaStore(factory);

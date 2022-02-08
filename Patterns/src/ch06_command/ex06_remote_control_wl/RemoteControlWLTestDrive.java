@@ -1,6 +1,6 @@
 package ch06_command.ex06_remote_control_wl;
 
-public class RemoteControlTestDrive {
+public class RemoteControlWLTestDrive {
     public static void main(String[] args) {
         RemoteControl remoteControl = new RemoteControl();
 

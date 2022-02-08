@@ -1,15 +1,15 @@
-package ch04_factory.ex02_factory_method;
+package ch04_factory.ex03_abstract_factory;
 
-public class PizzaTestDrive {
+public class AbstractFactoryTestDrive {
     public static void main(String[] args) {
         PizzaStore nyStore = new NYPizzaStore();
         PizzaStore chicagoStore = new ChicagoPizzaStore();
         Pizza pizza;
 
         pizza = nyStore.orderPizza("cheese");
-        System.out.println("Ethan ordered a " + pizza.getName() + "\n");
+        System.out.println("Ethan ordered a " + pizza + "\n");
 
         pizza = chicagoStore.orderPizza("cheese");
-        System.out.println("Joel ordered a " + pizza.getName() + "\n");
+        System.out.println("Joel ordered a " + pizza + "\n");
     }
 }
