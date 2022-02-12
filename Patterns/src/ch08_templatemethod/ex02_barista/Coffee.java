@@ -1,4 +1,4 @@
-package ch08_template_method.ex02_barista;
+package ch08_templatemethod.ex02_barista;
 
 public class Coffee extends CaffeineBeverage {
     @Override

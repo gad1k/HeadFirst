@@ -1,4 +1,4 @@
-package ch08_template_method.ex04_frame;
+package ch08_templatemethod.ex04_frame;
 
 import javax.swing.*;
 import java.awt.*;

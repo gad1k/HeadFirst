@@ -1,4 +1,4 @@
-package ch08_template_method.ex01_simple_barista;
+package ch08_templatemethod.ex01_simple_barista;
 
 public class Tea {
     public void boilWater() {

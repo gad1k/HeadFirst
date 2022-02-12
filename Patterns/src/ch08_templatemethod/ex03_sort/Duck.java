@@ -1,4 +1,4 @@
-package ch08_template_method.ex03_sort;
+package ch08_templatemethod.ex03_sort;
 
 public class Duck implements Comparable<Duck> {
     String name;
