@@ -9,9 +9,9 @@ public class CafeMenu implements Menu {
     public CafeMenu() {
         menuItems = new HashMap<String, MenuItem>();
 
-        addItem("Veggie Burger and Air Fries", "Veggie Burger on a Whole Wheat Bun, Lettuce, Tomato and Fries", true, 3.99);
-        addItem("Soup of the Day", "A Cup of the Soup of the Day with a Side Salad", false, 3.69);
-        addItem("Burrito", "A Large Burrito with Whole Pinto Beans, Salsa, Guacamole", true, 4.29);
+        addItem("Veggie Burger and Air Fries","Veggie Burger on a Whole Wheat Bun, Lettuce, Tomato and Fries",true,3.99);
+        addItem("Soup of the Day","A Cup of the Soup of the Day with a Side Salad",false,3.69);
+        addItem("Burrito","A Large Burrito with Whole Pinto Beans, Salsa, Guacamole",true,4.29);
     }
 
     public void addItem(String name, String description, boolean vegatarian, double price) {
